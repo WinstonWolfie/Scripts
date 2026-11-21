@@ -152,6 +152,7 @@ CapsLock & Enter::{
 NotCtrlDelWnd() {
   return WinActive("ahk_exe AutoHotkey.exe")
       || WinActive("ahk_exe AutoHotkeyU64.exe")
+      || WinActive("ahk_exe AutoHotkey64.exe")
       || WinActive("ahk_class CabinetWClass ahk_exe explorer.exe")
 }
 
